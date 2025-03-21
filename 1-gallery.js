@@ -1,0 +1,2 @@
+import"./assets/modulepreload-polyfill-B5Qt9EMX.js";/* empty css                      */import{S as i}from"./assets/vendor-C0lvKic3.js";const t=document.querySelector(".gallery"),r=e=>{const l=e.map(a=>`<li class="gallery-item"><a class="gallery-link" href="${a.original}"> <img class = "gallery-image" src="${a.preview}" alt="${a.description}"/></a></li>`);t.insertAdjacentHTML("afterbegin",l.join(""))};r(images);new i(".gallery a",{captions:!0,captionsData:"alt",captionDelay:250});
+//# sourceMappingURL=1-gallery.js.map
