@@ -1,4 +1,4 @@
-import { galleryItems } from './galleryItems.js';
+import { images } from './galleryItems.js';
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 
