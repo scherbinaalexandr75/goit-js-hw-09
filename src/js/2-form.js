@@ -8,8 +8,8 @@ let formData = JSON.parse(localStorage.getItem(LS_KEY_feedback)) || {
   message: '',
 };
 
-function onFormData(e) {
-  formData[e.target.name] = e.target.value.trim();
+function onFormData(event) {
+  formData[event.target.name] = event.target.value.trim();
   localStorage.setItem(LS_KEY_feedback, JSON.stringify(formData));
 }
 
